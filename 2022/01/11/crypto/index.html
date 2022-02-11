@@ -19,31 +19,31 @@
     <meta name="description" content="介绍了加解密流程、Hash流程、对称加密RSA算法、非对称加密AES算法、Hash、加密相关的WebAPI、前端常用的加密库">
 <meta property="og:type" content="article">
 <meta property="og:title" content="加密原理及应用">
-<meta property="og:url" content="http://example.com/2022/01/11/tech-share/index.html">
+<meta property="og:url" content="http://example.com/2022/01/11/crypto/index.html">
 <meta property="og:site_name" content="yangxuefeifei">
 <meta property="og:description" content="介绍了加解密流程、Hash流程、对称加密RSA算法、非对称加密AES算法、Hash、加密相关的WebAPI、前端常用的加密库">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211206154757668.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211206155824140.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211221141602131.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211206154757668.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211206155824140.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211221141602131.png">
 <meta property="og:image" content="https://pic3.zhimg.com/80/v2-cab03da551aafad821676824c1bc6ebe_1440w.jpg">
 <meta property="og:image" content="https://pic1.zhimg.com/80/v2-e160744c78b680b008c165cb78841858_1440w.jpg">
 <meta property="og:image" content="https://pic2.zhimg.com/80/v2-581b444c6583aff31afe66b0391d73c1_1440w.jpg">
 <meta property="og:image" content="https://pic2.zhimg.com/80/v2-8d1c58108b9d719a8674d7703ead7991_1440w.jpg">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216150404408.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216153455586.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216165421189.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216165833740.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216165953118.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211216170344701.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211217154955299.png">
-<meta property="og:image" content="http://example.com/2022/01/11/tech-share/image-20211220173816031.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216150404408.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216153455586.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216165421189.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216165833740.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216165953118.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211216170344701.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211217154955299.png">
+<meta property="og:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211220173816031.png">
 <meta property="article:published_time" content="2022-01-11T09:54:41.000Z">
-<meta property="article:modified_time" content="2022-01-11T09:54:41.000Z">
+<meta property="article:modified_time" content="2022-02-11T14:49:01.664Z">
 <meta property="article:author" content="yangxuefeifei">
 <meta property="article:tag" content="加密">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2022/01/11/tech-share/image-20211206154757668.png">
+<meta name="twitter:image" content="http://example.com/2022/01/11/crypto/images/crypto/image-20211206154757668.png">
   
   
   <title>加密原理及应用 - yangxuefeifei</title>
@@ -263,19 +263,19 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2022年1月11日 下午
+                  本文最后更新于：2022年2月11日 晚上
                 
               </p>
             
             <div class="markdown-body">
-              <h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><h3 id="加密"><a href="#加密" class="headerlink" title="加密"></a>加密</h3><p><img src="image-20211206154757668.png" srcset="/img/loading.gif" lazyload alt="image-20211206154757668"></p>
-<h3 id="Hash"><a href="#Hash" class="headerlink" title="Hash"></a>Hash</h3><p><img src="image-20211206155824140.png" srcset="/img/loading.gif" lazyload alt="image-20211206155824140"></p>
+              <h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><h3 id="加密"><a href="#加密" class="headerlink" title="加密"></a>加密</h3><p><img src="./images/crypto/image-20211206154757668.png" srcset="/img/loading.gif" lazyload alt="image-20211206154757668"></p>
+<h3 id="Hash"><a href="#Hash" class="headerlink" title="Hash"></a>Hash</h3><p><img src="./images/crypto/image-20211206155824140.png" srcset="/img/loading.gif" lazyload alt="image-20211206155824140"></p>
 <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><h3 id="加密-1"><a href="#加密-1" class="headerlink" title="加密"></a>加密</h3><h4 id="对称加密"><a href="#对称加密" class="headerlink" title="对称加密"></a>对称加密</h4><blockquote>
 <blockquote>
 <p>DES、3DES-加密标准、3重加密标准</p>
 <p>AES-高级加密标准，分组加密 在4x4的字节矩阵上运作</p>
 </blockquote>
-<p><img src="image-20211221141602131.png" srcset="/img/loading.gif" lazyload alt="image-20211221141602131"></p>
+<p><img src="./images/crypto/image-20211221141602131.png" srcset="/img/loading.gif" lazyload alt="image-20211221141602131"></p>
 <ul>
 <li><p>密钥加法层</p>
 <p>进行异或运算</p>
@@ -308,8 +308,8 @@
 </ul>
 <blockquote>
 <p>1、素数 p = 2 和 q = 7 ，计算乘积为 N = pq = 14 （小于14与14不互质的数：2，4，6，7，8，10，12，密钥长度2）</p>
-<p>2、根据欧拉函数，r = <img src="image-20211216150404408.png" srcset="/img/loading.gif" lazyload alt="image-20211216150404408"> = (p-1)*(q-1) =(2-1)(7-1） = 6</p>
-<p>3、选择整数 e = 5，e 和 r 互质，求得 e 关于 r 的模拟元 d <img src="image-20211216153455586.png" srcset="/img/loading.gif" lazyload alt="image-20211216153455586"></p>
+<p>2、根据欧拉函数，r = <img src="./images/crypto/image-20211216150404408.png" srcset="/img/loading.gif" lazyload alt="image-20211216150404408"> = (p-1)*(q-1) =(2-1)(7-1） = 6</p>
+<p>3、选择整数 e = 5，e 和 r 互质，求得 e 关于 r 的模拟元 d <img src="./images/crypto/image-20211216153455586.png" srcset="/img/loading.gif" lazyload alt="image-20211216153455586"></p>
 <p>4、即ed-1=xr，d = 11</p>
 <p>5、公钥为(N, e)，私钥为(N, d)即公钥(14, 5)，私钥(14, 11)</p>
 </blockquote>
@@ -318,14 +318,14 @@
 </ul>
 <blockquote>
 <p>1、明文为n = 10（需要小于N）</p>
-<p>2、密文<img src="image-20211216165421189.png" srcset="/img/loading.gif" lazyload alt="image-20211216165421189">，即c=12，<img src="image-20211216165833740.png" srcset="/img/loading.gif" lazyload alt="image-20211216165833740"></p>
+<p>2、密文<img src="./images/crypto/image-20211216165421189.png" srcset="/img/loading.gif" lazyload alt="image-20211216165421189">，即c=12，<img src="./images/crypto/image-20211216165833740.png" srcset="/img/loading.gif" lazyload alt="image-20211216165833740"></p>
 </blockquote>
 <ul>
 <li>解密</li>
 </ul>
 <blockquote>
 <p>1、密文c = 12</p>
-<p>2、明文<img src="image-20211216165953118.png" srcset="/img/loading.gif" lazyload alt="image-20211216165953118">，即n=10,<img src="image-20211216170344701.png" srcset="/img/loading.gif" lazyload alt="image-20211216170344701"></p>
+<p>2、明文<img src="./images/crypto/image-20211216165953118.png" srcset="/img/loading.gif" lazyload alt="image-20211216165953118">，即n=10,<img src="./images/crypto/image-20211216170344701.png" srcset="/img/loading.gif" lazyload alt="image-20211216170344701"></p>
 </blockquote>
 <ul>
 <li>安全性</li>
@@ -386,14 +386,14 @@
 <p>对称加密 + 非对称加密</p>
 </blockquote>
 <p>具体方式：</p>
-<p><img src="image-20211217154955299.png" srcset="/img/loading.gif" lazyload alt="image-20211217154955299"></p>
+<p><img src="./images/crypto/image-20211217154955299.png" srcset="/img/loading.gif" lazyload alt="image-20211217154955299"></p>
 </blockquote>
 <h3 id="2、Git的无口令访问-SSH"><a href="#2、Git的无口令访问-SSH" class="headerlink" title="2、Git的无口令访问(SSH)"></a>2、Git的无口令访问(SSH)</h3><blockquote>
 <blockquote>
 <p>Hash(MD5) + 非对称加密</p>
 </blockquote>
 <p>具体方式：</p>
-<p><img src="image-20211220173816031.png" srcset="/img/loading.gif" lazyload alt="image-20211220173816031"></p>
+<p><img src="./images/crypto/image-20211220173816031.png" srcset="/img/loading.gif" lazyload alt="image-20211220173816031"></p>
 </blockquote>
 <h2 id="Web-API的使用"><a href="#Web-API的使用" class="headerlink" title="Web API的使用"></a>Web API的使用</h2><h3 id="Hash-2"><a href="#Hash-2" class="headerlink" title="Hash"></a>Hash</h3><figure class="highlight javascript"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></div></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-comment">// 获取crypto对象</span><br><span class="hljs-keyword">const</span> crypto = <span class="hljs-built_in">window</span>.crypto.subtle<br><span class="hljs-keyword">const</span> encoder = <span class="hljs-keyword">new</span> TextEncoder()<br><br><span class="hljs-comment">// 摘要</span><br>crypto.digest(<br>  <span class="hljs-string">&#x27;SHA-256&#x27;</span>, <span class="hljs-comment">// 指定摘要算法</span><br>  encoder.encode(<span class="hljs-string">&#x27;Hello World&#x27;</span>) <span class="hljs-comment">// 入参ArrayBuffer</span><br>).then(<span class="hljs-function">(<span class="hljs-params">digest</span>) =&gt;</span> &#123;<br>   <br>  <span class="hljs-keyword">const</span> hashArray = <span class="hljs-built_in">Array</span>.from(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Uint8Array</span>(digest)) <span class="hljs-comment">// 结果ArrayBuffer转换为数组</span><br>  <span class="hljs-comment">// 结果转16进制字符串</span><br>  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;hash结果:&quot;</span>, hashArray.map(<span class="hljs-function"><span class="hljs-params">b</span> =&gt;</span> b.toString(<span class="hljs-number">16</span>).padStart(<span class="hljs-number">2</span>, <span class="hljs-string">&#x27;0&#x27;</span>)).join(<span class="hljs-string">&#x27;&#x27;</span>)) <span class="hljs-comment">// 其中padStart用于将字符&#x27;0-F&#x27;转为&#x27;00-0F&#x27;，不然摘要长度将发生变化</span><br>&#125;)<br></code></pre></td></tr></table></figure>
 
